@@ -1,0 +1,75 @@
+body{
+    font-family:'Lucida Sans';
+}
+.work{
+    padding:10px 0;
+    height:600px;
+    width:100%;
+    
+}
+.card{
+    padding-top:0;
+    float:left;
+    margin-left:5%;
+    width:30%;
+    box-sizing:border-box;
+    text-align:center;
+    border:1px solid ;
+}
+.icon {
+    color: #888;
+    
+    padding-top: 23%;
+}
+.work .frist{
+    margin-left:0;
+
+}
+.work h3{
+    color:orangered;
+    font-size:25px;
+}
+.line{
+    width:60%;
+    margin:auto;
+    color:#888;
+}
+.work p {
+    padding: 20px 0;
+    padding-bottom: 22%;
+    color:#888;
+}
+.work h2{
+    margin-bottom:2%;
+    font-size:60px;
+}
+.work span {
+    font-size: 57px;
+    font-weight: 500;
+}
+
+
+@media(max-width:757px){
+    .work{
+        overflow:no-content;
+    }
+    .card {
+        width: 47%;
+        margin-left: 6%;
+    }
+    .work .last{
+        margin-left:0;
+        margin-top:6%;
+    }
+}
+@media (min-width: 0px) and (max-width: 408px) {
+    .card {
+        width:100%;
+        margin-left:0;
+    }
+    .work .second{
+        margin-top:6%;
+    }
+}
+
+

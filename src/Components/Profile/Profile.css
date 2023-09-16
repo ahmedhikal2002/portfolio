@@ -1,0 +1,101 @@
+body{
+font-family:"Lucida Sans";
+}
+.profile{
+overflow:hidden;
+margin-top:1%;
+}
+.profile .handler{
+width:50%;
+    
+float:left;
+}
+
+.profile .handler h2{
+font-size:37px;
+}
+.profile .handler span{
+font-weight:500;
+}
+.profile .handler .info{
+list-style:none;
+margin:0;
+width:100%;
+padding:0;
+}
+.profile .handler .info span{
+display:inline-block;
+width:17%;
+font-weight:bold;
+}
+.profile .handler .info li {
+margin-top:8px;
+}
+.profile .handler .info .website{
+    color:orangered;
+    cursor:pointer;
+    font-weight:normal;
+}
+.profile .skills {
+    width: 50%;
+    float: left;
+}
+.profile .skills h2{
+    font-size:37px;
+}
+.profile .skills .some{
+    font-weight:500;
+}
+.profile .skills p{
+    color:#888;
+    line-height:1.5;
+}
+.profile .skills .skill-desc{
+    position:relative;
+    margin-top:17px;
+}
+.profile .skills .skill-desc .right {
+position:absolute;
+right:17%;
+}
+.profile .skills .skills-desc .frist {
+border: 2px solid orangered;
+}
+.profile .skills .skills-desc .second {
+border: 2px solid orangered;
+width: 90%;
+margin-left: 0;
+}
+.profile .skills .skills-desc .thrid {
+border: 2px solid orangered;
+width: 80%;
+margin-left: 0;
+}
+.profile  .skills .skills-desc{
+margin-top:6%;
+}
+@media(max-width:928px){
+    .profile .handler {
+        width: 100%;
+        float: none;
+        font-size: larger;
+    
+        margin-left:11%;
+    }
+    .profile .skills{
+        width:100%;
+        font-size:larger;
+        float :none;
+        margin-left:11%;
+    }
+    .profile .handler .info span {
+        width: 46%;
+    }
+}
+
+@media(min-width:0px) and (max-width:575px){
+    .profile .handler .info span {
+        width:100px;
+    }
+    
+}

@@ -1,0 +1,84 @@
+.social-media{
+    overflow:hidden;
+}
+.social {
+    float: left;
+    padding:5%;
+    width: 33.3%;
+    height:250px;
+    box-sizing: border-box;
+}
+
+
+    .social.facebook {
+        background: #3b5998;
+    }
+    .social.facebook i{
+        color: #3b5998;
+    }
+    .social.twitter {
+        background: #498cbf;
+    }
+    .social.twitter i{
+        color: #498cbf;
+    }
+    .social.pin {
+        background: #cc2127;
+    }
+    .social.pin i{
+        color: #cc2127;
+    }
+    .social .my-icon {
+        width: 60px;
+        height: 60px;
+        background: white;
+        text-align: center;
+        line-height: 60px;
+        color: #888;
+        margin-right:3%;
+        float:left;
+        font-size: x-large;
+    }
+    .social p{
+        color:white;
+    }
+
+    .social span {
+        display: block;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+    }
+    .social .normal{
+        font-weight:normal;
+    }
+    @media(max-width:1275px){
+        .social{
+            height:185px;
+        }
+        .social span{
+            font-size:20px;
+        }
+        .social .normal{
+            font-size:20px;
+        }
+        .my-icon {
+            width: 60px;
+            height: 60px;
+            line-height:50px;
+        }
+    }
+    @media(min-width:575px) and (max-width:825px){
+        .social {
+            width: 50%;
+            height: 174px;
+        }
+    }
+    @media(min-width:0px) and (max-width:575px){
+        .social {
+            width: 100%;
+            float: none;
+            padding: 11%;
+            padding-left: 25%;
+        }
+    }

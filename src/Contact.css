@@ -1,0 +1,71 @@
+
+.contact{
+    height:530px;
+    text-align:center;
+    background-color:orangered;
+    color:white;
+   
+}
+.contact h2{
+    font-size:50px;
+}
+.contact span{
+    font-weight:normal;
+}
+.contact .form{
+    
+    width:75%;
+    height:240px;
+    margin:auto;
+   
+}
+.contact .form input, textarea {
+    display: block;
+    box-sizing: border-box;
+    padding:6px;
+    border:0;
+    width:100%;
+    font-size:20px;
+    margin-bottom:6px;
+    outline:0;
+    }
+.contact .form .name{
+    width:49%;
+    float:left;
+}
+.contact .form .email {
+    width: 49%;
+       margin-left:auto;
+}
+    .contact input[type=submit] {
+        width: 80%;
+        margin: auto;
+        font-weight: bold;
+        
+        color: black;
+        cursor: pointer;
+    }
+textarea{
+    height:40%;
+    background:#ccc;
+}
+.contact input[type=submit]:hover {
+    color: orangered;
+}
+
+@media(max-width:575px){
+    .contact .form .name{
+        width:100%;
+        float:none;
+    }
+    .contact .form .email{
+        width:100%;
+    }
+    .contact input[type=submit]{
+        width:auto;
+        font-size:large;
+    }
+    .contact h2{
+        font-size:xx-large;
+    }
+}

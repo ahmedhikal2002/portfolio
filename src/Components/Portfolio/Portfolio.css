@@ -1,0 +1,98 @@
+.Portfolio {
+    overflow:hidden;
+    background-color: #f8f8f8;
+    width:100%;
+}
+.Portfolio h2{
+    text-align:center;
+    font-size:39px;
+}
+.Portfolio span{
+   font-weight:500;
+}
+    .Portfolio .items {
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+.Portfolio .item{
+    display:inline-block;
+    padding-left:4%;
+
+}
+    .Portfolio .active {
+        background: orangered;
+       
+        color: white;
+        height: 33px;
+       
+        padding: 0;
+        width: 7%;
+        padding-top: 1%;
+    }
+.Portfolio .box{
+    margin-top:6.5%;
+}
+.Portfolio .box div {
+    width:25%;
+    position:relative;
+    float:left;
+    font-size:0;
+}
+    .Portfolio .box div img{
+        width:100%;
+    }
+    .Portfolio .box div .layout {
+        font-size: 19px;
+        position: absolute;
+        top: 0;
+        color:azure;
+        margin:0;
+        padding:17%;
+        left: 0;
+        background-color: rgba(235,84,36, 0.5);
+        height:100%;
+        opacity:0;
+    }
+    .Portfolio .box div :hover .layout{
+        opacity:1;
+    }
+
+
+@media(max-width:757px) {
+    .Portfolio{
+        margin-top:16px;
+        overflow:hidden;
+    }
+    .Portfolio .box div{
+        width:50%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .Portfolio .item{
+        display:block;
+        margin-top:12px;
+        font-size:larger;
+    }
+    .Portfolio .active {
+        margin: auto;
+        width: 17%;
+        padding-top: 11px;
+        text-align: center;
+        height: 31px;
+    }
+    .Portfolio .box div{
+        width:100%
+
+    }
+
+
+}
+
+
+
+
+
